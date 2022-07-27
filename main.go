@@ -76,6 +76,7 @@ func main() {
 				Name:        "output-dir",
 				Aliases:     []string{"o"},
 				Usage:       "Directory to save geojson",
+				Required:    true,
 				Destination: &osmOpts.OutDir,
 			},
 		},
